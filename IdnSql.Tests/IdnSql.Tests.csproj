@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IdnSql.SqlKata\IdnSql.SqlKata.csproj" />
     <ProjectReference Include="..\IdnSql\IdnSql.csproj" />
   </ItemGroup>
 

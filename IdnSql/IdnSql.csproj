@@ -4,8 +4,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="SqlKata" Version="1.1.8-ci-712" />
-  </ItemGroup>
-
 </Project>
