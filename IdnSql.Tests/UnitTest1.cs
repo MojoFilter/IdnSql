@@ -22,5 +22,24 @@ namespace IdnSql.Tests
 
             Assert.AreEqual(expectedQuery, compiledQuery);
         }
+
+        /// <summary>
+        ///   <see cref="https://sqlkata.com/docs#introduction"/>
+        /// </summary>
+        [TestMethod]
+        public void IntroductionExample()
+        {
+            var expectedQuery = @"SELECT [Id], [Title] FROM [Posts] WHERE [Likes] > @p0 AND [Lang] IN (@p1, @p2) AND [AuthorId] IS NOT NULL ORDER BY [Date] DESC";
+            var query = new Query();
+            var sql = query
+                .From("Posts")
+                .Where("Likes", ">", 10)
+                .WhereIn("Lang", "en", "fr")
+                .WhereNotNull("AuthorId")
+                .OrderByDesc("Date")
+                .Select("Id", "Title")
+                .Compile();
+            Assert.AreEqual(expectedQuery, sql);
+        }
     }
 }
