@@ -1,4 +1,3 @@
-using IdnSql.SqlKata;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace IdnSql.Tests
@@ -8,7 +7,7 @@ namespace IdnSql.Tests
     {
         public UnitTest1()
         {
-            this.sqlFactory = new KataSqlFactory();
+            this.sqlFactory = new TestFactory().NewSqlFactory(); ;
         }
 
         /// <summary>

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdnSql.Tests", "IdnSql.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdnSql.SqlKata", "IdnSql.SqlKata\IdnSql.SqlKata.csproj", "{09B36BA2-73B2-482B-9AD1-9009473D19D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdnSql.NPoco", "IdnSql.NPoco\IdnSql.NPoco.csproj", "{4A03F27E-67E7-46B1-A298-E9CF250F144C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdnSql.NPoco.Tests", "IdnSql.NPoco.Tests\IdnSql.NPoco.Tests.csproj", "{996390F6-5F74-404C-A838-1BD9823DBC31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{09B36BA2-73B2-482B-9AD1-9009473D19D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09B36BA2-73B2-482B-9AD1-9009473D19D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09B36BA2-73B2-482B-9AD1-9009473D19D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A03F27E-67E7-46B1-A298-E9CF250F144C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A03F27E-67E7-46B1-A298-E9CF250F144C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A03F27E-67E7-46B1-A298-E9CF250F144C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A03F27E-67E7-46B1-A298-E9CF250F144C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996390F6-5F74-404C-A838-1BD9823DBC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996390F6-5F74-404C-A838-1BD9823DBC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996390F6-5F74-404C-A838-1BD9823DBC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996390F6-5F74-404C-A838-1BD9823DBC31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
